@@ -13,6 +13,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        MovimientoJugador();
+    }
+
+    private void MovimientoJugador() 
+    {
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
@@ -20,6 +25,15 @@ public class PlayerController : MonoBehaviour
         position.x += 3.0f * horizontal * Time.deltaTime;
         position.y += 3.0f * vertical * Time.deltaTime;
         transform.position = position;
-        Debug.Log(horizontal);
+    }
+
+    private void InteracionConObjetos()
+    {
+        float interacion = Input.GetAxis("Interaction");
+    
+        if(interacion > 0)
+        {
+
+        }
     }
 }
