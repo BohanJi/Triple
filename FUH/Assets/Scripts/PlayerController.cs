@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,15 +26,5 @@ public class PlayerController : MonoBehaviour
         position.x += 3.0f * horizontal * Time.deltaTime;
         position.y += 3.0f * vertical * Time.deltaTime;
         transform.position = position;
-    }
-
-    private void InteracionConObjetos()
-    {
-        float interacion = Input.GetAxis("Interaction");
-    
-        if(interacion > 0)
-        {
-
-        }
     }
 }

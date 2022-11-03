@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ferder.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Transition.unity
+    guid: fe4c743d3ad49e74fb662d00abefce6f
+  - enabled: 1
+    path: Assets/Scenes/bosque.unity
+    guid: dd91288efef67e849a42cfce58b38d2e
   m_configObjects: {}
