@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Animation.Runtime"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.TextMeshPro.csproj", "{800B7419-C841-9924-28F1-2DDD612077C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinemachine", "Cinemachine.csproj", "{51980340-1E3C-87DE-E336-04D28308D80C}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.csproj", "{2C5F9E65-FE23-7747-5FE3-8BE7EF532849}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core", "Unity.Services.Core.csproj", "{49FEB36A-C070-F0C9-4146-2866901ADF8D}"
@@ -61,8 +63,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InternalAPIEngineBrid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Configuration", "Unity.Services.Core.Configuration.csproj", "{1BAA5D54-B7D7-0BB6-6A50-1E2D40E6E96D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinemachine", "Cinemachine.csproj", "{51980340-1E3C-87DE-E336-04D28308D80C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PlasticSCM.Editor", "Unity.PlasticSCM.Editor.csproj", "{0A4AF737-001F-0B5D-946E-8E75E93AB735}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Core.Editor", "Unity.VisualScripting.Core.Editor.csproj", "{0CAEA3EC-930B-0CC5-BCDE-A4A3029D7E79}"
@@ -72,6 +72,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualStudio.Editor", "Unity.VisualStudio.Editor.csproj", "{F8FE8C4E-E5F9-BBC2-2D04-87A5806F157B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline.Editor", "Unity.Timeline.Editor.csproj", "{11851A91-1872-F80D-CE2C-AC94722F6730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.unity.cinemachine.editor", "com.unity.cinemachine.editor.csproj", "{0F4157B1-8D53-2DAE-5AED-ACC2609BFF07}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.State.Editor", "Unity.VisualScripting.State.Editor.csproj", "{BCCC0882-009A-A1FE-7382-9F796EBC70E3}"
 EndProject
@@ -124,8 +126,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InternalAPIEditorBridge.001", "Unity.InternalAPIEditorBridge.001.csproj", "{CB3F7889-8769-0581-BAD0-C241DDFF9745}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Shared.Editor", "Unity.VisualScripting.Shared.Editor.csproj", "{EF3576A9-E47D-EB5A-AD19-698AF1E31835}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.unity.cinemachine.editor", "com.unity.cinemachine.editor.csproj", "{0F4157B1-8D53-2DAE-5AED-ACC2609BFF07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -181,6 +181,10 @@ Global
 		{800B7419-C841-9924-28F1-2DDD612077C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{800B7419-C841-9924-28F1-2DDD612077C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{800B7419-C841-9924-28F1-2DDD612077C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51980340-1E3C-87DE-E336-04D28308D80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51980340-1E3C-87DE-E336-04D28308D80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51980340-1E3C-87DE-E336-04D28308D80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51980340-1E3C-87DE-E336-04D28308D80C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2C5F9E65-FE23-7747-5FE3-8BE7EF532849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2C5F9E65-FE23-7747-5FE3-8BE7EF532849}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C5F9E65-FE23-7747-5FE3-8BE7EF532849}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -253,10 +257,6 @@ Global
 		{1BAA5D54-B7D7-0BB6-6A50-1E2D40E6E96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BAA5D54-B7D7-0BB6-6A50-1E2D40E6E96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BAA5D54-B7D7-0BB6-6A50-1E2D40E6E96D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{51980340-1E3C-87DE-E336-04D28308D80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51980340-1E3C-87DE-E336-04D28308D80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51980340-1E3C-87DE-E336-04D28308D80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51980340-1E3C-87DE-E336-04D28308D80C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0A4AF737-001F-0B5D-946E-8E75E93AB735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0A4AF737-001F-0B5D-946E-8E75E93AB735}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A4AF737-001F-0B5D-946E-8E75E93AB735}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -277,6 +277,10 @@ Global
 		{11851A91-1872-F80D-CE2C-AC94722F6730}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11851A91-1872-F80D-CE2C-AC94722F6730}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11851A91-1872-F80D-CE2C-AC94722F6730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4157B1-8D53-2DAE-5AED-ACC2609BFF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4157B1-8D53-2DAE-5AED-ACC2609BFF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4157B1-8D53-2DAE-5AED-ACC2609BFF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4157B1-8D53-2DAE-5AED-ACC2609BFF07}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BCCC0882-009A-A1FE-7382-9F796EBC70E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BCCC0882-009A-A1FE-7382-9F796EBC70E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCCC0882-009A-A1FE-7382-9F796EBC70E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -381,10 +385,6 @@ Global
 		{EF3576A9-E47D-EB5A-AD19-698AF1E31835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF3576A9-E47D-EB5A-AD19-698AF1E31835}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF3576A9-E47D-EB5A-AD19-698AF1E31835}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0F4157B1-8D53-2DAE-5AED-ACC2609BFF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F4157B1-8D53-2DAE-5AED-ACC2609BFF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F4157B1-8D53-2DAE-5AED-ACC2609BFF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F4157B1-8D53-2DAE-5AED-ACC2609BFF07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638036742009512420
-    m_Hash: 3894236995
+      ticks: 638036761607373851
+    m_Hash: 473929725
   m_LockFileStatus:
     m_FilePath: C:/Users/bohan/GitHub/Triple_Proyecto/FUH/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638036742009581722
-    m_Hash: 1907958480
+      ticks: 638036761607383709
+    m_Hash: 3735026628
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
