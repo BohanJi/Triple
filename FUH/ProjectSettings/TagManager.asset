@@ -5,7 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - NextScene
-  - PrevioesScene
+  - PreviousScene
   layers:
   - Default
   - TransparentFX
@@ -15,9 +15,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Character
+  - Confiner
+  - InteractObs
   - 
   - 
   - 
