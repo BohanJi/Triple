@@ -6,6 +6,7 @@ TagManager:
   tags:
   - NextScene
   - PreviousScene
+  - NPC
   layers:
   - Default
   - TransparentFX
