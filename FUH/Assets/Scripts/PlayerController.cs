@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    Rigidbody2D rigidbody2d;
+    public Rigidbody2D rigidbody2d;
     List<string> ActivesItems = new();
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +30,11 @@ public class PlayerController : MonoBehaviour
         Vector2 position = rigidbody2d.position;
         position.x += 3.0f * horizontal * Time.deltaTime;
         position.y += 3.0f * vertical * Time.deltaTime;
-        
+
+        animator.SetFloat("Horizontal", position.x);
+        animator.SetFloat("Vertical", position.y);
+        animator.SetFloat("Speed", position.sqrMagnitude);
+
         rigidbody2d.MovePosition(position);
     }
 
