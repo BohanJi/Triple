@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: 4b124646582a5644ea72b7d49a949f27
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a298f4e8ce9d64e8f7c1cbc33e8341
+      internalID: -1493272954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2c171bd24ac4f48b1a0da4f0e3d4fd
+      internalID: -1019273542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c82e620e667bb48900906552cf9cd7
+      internalID: -723147920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a9acfeb846e3a488c12817429b8f14
+      internalID: -322596769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509181adf68e1cc45ad9a59f95c109e2
+      internalID: -1827806706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055b9dc082ccd4149b0c7e51fe11e514
+      internalID: 1367125122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228903328647d774ca4337283aac569d
+      internalID: 1680438509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd1dccf60cf6cd4585006789e1cf453
+      internalID: -1139395018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8241ff5663378da45af23b2fe6a6925e
+      internalID: 971243337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_42
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4046383078baf1b458e149df01cd4791
+      internalID: 1327885306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_43
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81f4c8a6519f494f8ad503afe486aee
+      internalID: 220536524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_44
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fab69161d23ac74db3aecb3955c8b21
+      internalID: -1643316815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e179b39d14563b499813d27709c387f
+      internalID: 484070065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_63
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e237404e5a828e4c80359712b6f40e5
+      internalID: -1385328441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_64
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0398fc272bbd144b9697586f09ed72
+      internalID: -1665466995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_65
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa39bdef89366443973a7ee01d03d0a
+      internalID: 1833055902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95eaa2c7fd81f84b9ead779b9251c67
+      internalID: 1523626476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_pueblo_en72 1_83
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbd58cd1589e3c49a28fbb750c98f42
+      internalID: 769539286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tiles_pueblo_en72 1_27: 1275850903
+      tiles_pueblo_en72 1_81: -192475857
+      tiles_pueblo_en72 1_54: 347866664
+      tiles_pueblo_en72 1_25: 860654083
+      tiles_pueblo_en72 1_30: -643946655
+      tiles_pueblo_en72 1_75: -526374487
+      tiles_pueblo_en72 1_32: 2104283998
+      tiles_pueblo_en72 1_82: 1523626476
+      tiles_pueblo_en72 1_46: 619810122
+      tiles_pueblo_en72 1_53: -141415000
+      tiles_pueblo_en72 1_23: -1139395018
+      tiles_pueblo_en72 1_55: 2060631389
+      tiles_pueblo_en72 1_65: 1833055902
+      tiles_pueblo_en72 1_24: -1533648138
+      tiles_pueblo_en72 1_78: -1982078280
+      tiles_pueblo_en72 1_90: 276311857
+      tiles_pueblo_en72 1_38: 295292333
+      tiles_pueblo_en72 1_85: 482065496
+      tiles_pueblo_en72 1_84: -946604210
+      tiles_pueblo_en72 1_45: -1180090537
+      tiles_pueblo_en72 1_40: 881373039
+      tiles_pueblo_en72 1_63: -1385328441
+      tiles_pueblo_en72 1_13: 2135043033
+      tiles_pueblo_en72 1_43: 220536524
+      tiles_pueblo_en72 1_51: 1344542256
+      tiles_pueblo_en72 1_33: -516853700
+      tiles_pueblo_en72 1_39: -1303827299
+      tiles_pueblo_en72 1_86: 1746326563
+      tiles_pueblo_en72 1_66: -1251935266
+      tiles_pueblo_en72 1_10: 409736366
+      tiles_pueblo_en72 1_57: -1431851904
+      tiles_pueblo_en72 1_35: -1695100322
+      tiles_pueblo_en72 1_70: -1208962405
+      tiles_pueblo_en72 1_49: -1530914506
+      tiles_pueblo_en72 1_79: 2061971883
+      tiles_pueblo_en72 1_50: 1198405184
+      tiles_pueblo_en72 1_21: 1367125122
+      tiles_pueblo_en72 1_34: -669878822
+      tiles_pueblo_en72 1_80: 1504293294
+      tiles_pueblo_en72 1_7: 1113745572
+      tiles_pueblo_en72 1_6: -1215738639
+      tiles_pueblo_en72 1_69: -1092132993
+      tiles_pueblo_en72 1_73: -492160680
+      tiles_pueblo_en72 1_4: -1994396784
+      tiles_pueblo_en72 1_88: -2059320103
+      tiles_pueblo_en72 1_64: -1665466995
+      tiles_pueblo_en72 1_1: -1019273542
+      tiles_pueblo_en72 1_47: -1894051991
+      tiles_pueblo_en72 1_29: 1398399243
+      tiles_pueblo_en72 1_0: -1493272954
+      tiles_pueblo_en72 1_18: 1827903012
+      tiles_pueblo_en72 1_60: -1107361330
+      tiles_pueblo_en72 1_3: -322596769
+      tiles_pueblo_en72 1_42: 1327885306
+      tiles_pueblo_en72 1_48: 51131644
+      tiles_pueblo_en72 1_72: -1481541925
+      tiles_pueblo_en72 1_67: 1097933958
+      tiles_pueblo_en72 1_76: 1832374557
+      tiles_pueblo_en72 1_44: -1643316815
+      tiles_pueblo_en72 1_68: -1998581419
+      tiles_pueblo_en72 1_17: -79738633
+      tiles_pueblo_en72 1_14: 1901704307
+      tiles_pueblo_en72 1_71: 1868865500
+      tiles_pueblo_en72 1_20: -1827806706
+      tiles_pueblo_en72 1_77: -1671278914
+      tiles_pueblo_en72 1_5: 2074105508
+      tiles_pueblo_en72 1_19: -2071375019
+      tiles_pueblo_en72 1_61: 1231767341
+      tiles_pueblo_en72 1_31: -105654534
+      tiles_pueblo_en72 1_58: -156079834
+      tiles_pueblo_en72 1_59: 1806326485
+      tiles_pueblo_en72 1_36: 1603279908
+      tiles_pueblo_en72 1_12: -1026721873
+      tiles_pueblo_en72 1_74: 292574451
+      tiles_pueblo_en72 1_37: 192850982
+      tiles_pueblo_en72 1_2: -723147920
+      tiles_pueblo_en72 1_15: -518935331
+      tiles_pueblo_en72 1_41: 971243337
+      tiles_pueblo_en72 1_28: -1315240879
+      tiles_pueblo_en72 1_52: -1661728769
+      tiles_pueblo_en72 1_16: 481392306
+      tiles_pueblo_en72 1_8: -731994112
+      tiles_pueblo_en72 1_83: 769539286
+      tiles_pueblo_en72 1_87: -24922692
+      tiles_pueblo_en72 1_89: -1244343307
+      tiles_pueblo_en72 1_11: 70436241
+      tiles_pueblo_en72 1_22: 1680438509
+      tiles_pueblo_en72 1_56: -1618080423
+      tiles_pueblo_en72 1_26: 1941130684
+      tiles_pueblo_en72 1_9: -1914351174
+      tiles_pueblo_en72 1_62: 484070065
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
