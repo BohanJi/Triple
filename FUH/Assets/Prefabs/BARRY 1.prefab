@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2184078053640964255}
   - component: {fileID: 4766179922521726348}
   - component: {fileID: 8077283061051706206}
+  - component: {fileID: -7233837475651435030}
   m_Layer: 0
   m_Name: BARRY 1
   m_TagString: Untagged
@@ -94,7 +95,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 790148674424101010}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f593f896cd009544d9f924ea446b298e, type: 3}
   m_Name: 
@@ -149,3 +150,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &-7233837475651435030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790148674424101010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aee5efb5422bed489c605cecf8dbc00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2d: {fileID: 0}
+  animator: {fileID: 0}
