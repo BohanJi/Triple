@@ -1,68 +1,79 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.IO;
-using System;
 using TMPro;
+using System.Collections;
 
 public class Dialogue : MonoBehaviour
 {
     [SerializeField] GameObject dialogueMask;
     [SerializeField] GameObject dialoguePanel;
-    public string dialogueTitol;
-
+    [SerializeField] private TMP_Text dialogueText;
+    [SerializeField, TextArea(4,6)] string[] dialogueLines; 
+    
     private bool isPlayerInRange;
     private bool didDialogueStart;
     private int lineIndex;
-    private TMP_Text ActiveDialogueText;
-
-    private List<DialogueLine> dialogueLines = new();
-
-    ReadDataCVS dialogues;
+    private float typingTime = 0.05f;
 
     // Start is called before the first frame update
     void Start()
     {
-        dialogues = FindObjectOfType<ReadDataCVS>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isPlayerInRange && Input.GetButtonDown("Interaction"))
+        if(isPlayerInRange && Input.GetButtonDown("Interaction"))
         {
             if (!didDialogueStart)
+            {
                 StartDialogue();
-            else NextDialogueLine();
+            }
+            else if (dialogueText.text == dialogueLines[lineIndex])
+            {
+                NextDialogueLine();
+            }
+            else
+            {
+                StopAllCoroutines();
+                dialogueText.text = dialogueLines[lineIndex];
+            }
         }
     }
 
     private void StartDialogue()
     {
-        didDialogueStart = true;
-        dialogueMask.SetActive(true);
+        didDialogueStart  = true;
+        dialoguePanel.SetActive(true);
+        dialogueMask.SetActive(false);
         lineIndex = 0;
-        ShowLine();
-    }
-
-    private void ShowLine()
-    {
-        ActiveDialogueText.text = dialogueLines[lineIndex].dialogue;
+        Time.timeScale = 0f;
+        StartCoroutine(ShowLine());
     }
 
     private void NextDialogueLine()
     {
-        ActiveDialogueText.text = string.Empty;
         lineIndex++;
-        if (lineIndex < dialogueLines.Count)
+        if (lineIndex < dialogueLines.Length)
         {
-            ShowLine();
+            StartCoroutine(ShowLine());
         }
-        else
+        else 
         {
             didDialogueStart = false;
             dialoguePanel.SetActive(false);
-            dialogueMask.SetActive(false);
+            dialogueMask.SetActive(true);
+            Time.timeScale = 1f;
+        }
+    }
+    private IEnumerator ShowLine()
+    {
+        dialogueText.text = string.Empty;
+
+        foreach(char ch in dialogueLines[lineIndex])
+        {
+            dialogueText.text += ch;
+            yield return new WaitForSecondsRealtime(typingTime);
         }
     }
 

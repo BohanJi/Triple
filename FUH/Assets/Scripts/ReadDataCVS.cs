@@ -11,9 +11,10 @@ public class ReadDataCVS : MonoBehaviour
     public string DialogueDataName = "/Dialogos.csv";
     //private string persistentDataPath;
 
+    [Space]
     public string header;
     public string[] lines;
-    public List<DialogueLine> dialogueList = new();
+    public static List<DialogueLine> dialogueList = new();
 
     [ContextMenu("Read File")]
     public void ReadFileData()
@@ -55,6 +56,11 @@ public class ReadDataCVS : MonoBehaviour
                 Debug.Log(dialogueList[^1]);
             }
         }
+    }
+
+    public List<DialogueLine> GetDialogueLines() 
+    {
+        return dialogueList;
     }
 }
 

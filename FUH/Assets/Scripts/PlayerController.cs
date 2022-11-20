@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
 
     List<string> ActivesItems = new();
-    public Rigidbody2D rigidbody2d;
+    Rigidbody2D rigidbody2d;
     public Animator animator;
 
     Vector2 movement;
