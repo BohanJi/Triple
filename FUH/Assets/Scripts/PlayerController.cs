@@ -1,47 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public Rigidbody2D rigidbody2d;
+    public float moveSpeed = 5f;
+
     List<string> ActivesItems = new();
+    public Rigidbody2D rigidbody2d;
     public Animator animator;
 
-    // Start is called before the first frame update
+    Vector2 movement;
+
     void Start()
     {
         DontDestroyOnLoad(this);
         rigidbody2d = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        MovimientoJugador();
+        CharacterMove();
     }
 
-    private void MovimientoJugador() 
+    void FixedUpdate()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        rigidbody2d.MovePosition(rigidbody2d.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
 
-        Vector2 position = rigidbody2d.position;
-        position.x += 3.0f * horizontal * Time.deltaTime;
-        position.y += 3.0f * vertical * Time.deltaTime;
+    void CharacterMove()
+    {
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
-        animator.SetFloat("Horizontal", position.x);
-        animator.SetFloat("Vertical", position.y);
-        animator.SetFloat("Speed", position.sqrMagnitude);
-
-        rigidbody2d.MovePosition(position);
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
     public void AddItem(string ItemName)
     {
         ActivesItems.Add(ItemName);
     }
+
     public List<string> GetItemList()
     {
         return ActivesItems;
